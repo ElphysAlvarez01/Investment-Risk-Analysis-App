@@ -1,7 +1,10 @@
 import streamlit as st
 
+import os
 # ---- ADD A BANNER IMAGE ----
-st.image("pages/Image_folder/user_guide.png", use_container_width=True)
+
+image_path = os.path.join("RiskManagement_Streamlit_app", "pages", "Image_folder", "user_guide.png")
+st.image(image_path, use_container_width=True)
 
 
 def main():

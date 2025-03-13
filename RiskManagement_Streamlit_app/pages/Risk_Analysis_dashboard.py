@@ -11,8 +11,6 @@ if os.path.exists(image_path):
 else:
     st.warning(f"Image not found: {image_path}")
 
-
-
 def main():
     st.title("📉 Risk Analysis Page")
     st.write("This page will contain analysis related to risk management XXXXXXXXXXXXXXX.")

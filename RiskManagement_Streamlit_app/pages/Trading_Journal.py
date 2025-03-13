@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-
+import os
 # ---- ADD A BANNER IMAGE ----
-st.image("pages/Image_folder/trading_journal.png", use_container_width=True)
 
+image_path = os.path.join("RiskManagement_Streamlit_app", "pages", "Image_folder", "trading_journal.png")
+st.image(image_path, use_container_width=True)
 
 def main():
     st.title("📊 Trade Performance Tracker")

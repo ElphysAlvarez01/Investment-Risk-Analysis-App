@@ -14,11 +14,11 @@ from sklearn.ensemble import RandomForestRegressor
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# ✅ Import your internal modules after setting the page config
-from pages import Risk_Analysis_dashboard, Trading_Journal, User_Guide
+import os
+# ---- ADD A BANNER IMAGE ----
 
-# ✅ Banner image should come **after** the config
-st.image("pages/Image_folder/main_banner.png", use_container_width=True)
+image_path = os.path.join("RiskManagement_Streamlit_app", "pages", "Image_folder", "main_banner.png")
+st.image(image_path, use_container_width=True)
 
 
 # ---- CUSTOM SIDEBAR CSS ----
