@@ -18,7 +18,8 @@ import matplotlib.pyplot as plt
 from pages import Risk_Analysis_dashboard, Trading_Journal, User_Guide
 
 # ✅ Banner image should come **after** the config
-st.image("../Image_folder/main_banner.png", use_container_width=True)
+st.image("pages/Image_folder/main_banner.png", use_container_width=True)
+
 
 # ---- CUSTOM SIDEBAR CSS ----
 sidebar_css = """

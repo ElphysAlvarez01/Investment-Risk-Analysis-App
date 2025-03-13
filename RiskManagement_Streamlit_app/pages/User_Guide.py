@@ -1,7 +1,8 @@
 import streamlit as st
 
 # ---- ADD A BANNER IMAGE ----
-st.image("../Image_folder/user_guide.png", use_container_width=True)
+st.image("pages/Image_folder/user_guide.png", use_container_width=True)
+
 
 def main():
     # Page Title

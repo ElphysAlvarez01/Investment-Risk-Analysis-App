@@ -1,7 +1,8 @@
 import streamlit as st
 
 # ---- ADD A BANNER IMAGE ----
-st.image("../Image_folder/Research_dashboard.png", use_container_width=True)
+st.image("pages/Image_folder/Research_dashboard.png", use_container_width=True)
+
 
 def main():
     st.title("📉 Risk Analysis Page")

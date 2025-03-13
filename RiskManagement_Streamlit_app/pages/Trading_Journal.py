@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # ---- ADD A BANNER IMAGE ----
-st.image("../Image_folder/trading_journal.png", use_container_width=True)
+st.image("pages/Image_folder/trading_journal.png", use_container_width=True)
+
 
 def main():
     st.title("📊 Trade Performance Tracker")
