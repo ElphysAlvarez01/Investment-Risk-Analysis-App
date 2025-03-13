@@ -1,7 +1,16 @@
 import streamlit as st
-
+import os
 # ---- ADD A BANNER IMAGE ----
-st.image("pages/Image_folder/Research_dashboard.png", use_container_width=True)
+
+# Correct path based on GitHub folder structure
+image_path = os.path.join(os.path.dirname(__file__), "Image_folder", "Research_dashboard.png")
+
+# Check if the image exists before loading
+if os.path.exists(image_path):
+    st.image(image_path, use_container_width=True)
+else:
+    st.warning(f"Image not found: {image_path}")
+
 
 
 def main():
